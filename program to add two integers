@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int first_number,second_number,sum;
+    
+    
+  cout<<"enter two integers : ";
+  cin>>first_number>>second_number;
+  
+  //sum of two number in stored in variable sumoftwonumbers
+  sum = first_number + second_number;
+  
+  //prints sum
+  cout << first_number <<" + " << second_number <<" = "<<sum;
+  
+return 0;
+}                                                                                                                                                                                  
+
+Explanation :                                                                                                                                                                                                                                                                                                                                     
+This C++ program asks the user to enter two numbers. It then adds these two numbers together and shows the result. The sum is stored in a variable called `sum`, and the program prints the result in a clear format like "first_number + second_number = sum". This program is a basic example of taking input, performing addition, and displaying the output.
