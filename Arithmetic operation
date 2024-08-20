@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int first, second, add, subtract, multiply;
+    float divide;
+    
+    cout << "Please enter two integers: ";
+    cin >> first;
+    cin >> second;
+    
+    add        = first + second;
+    subtract = first - second;
+    multiply = first * second;
+    divide     = first / (float)second;   // typecasting
+    
+    cout << endl <<"Sum = " << add;
+    cout << endl <<"Difference = " << subtract;
+    cout << endl <<"Multiplication = " << multiply;
+    cout << endl <<"Division = " << divide; 
+    
+    return 0;
+}
+                                                                                                                                                                                                                                                                                               
+Explanation:
+This C++ program takes two integers as input from the user and performs basic arithmetic operations: addition, subtraction, multiplication, and division. The results of these operations are then displayed on the screen. The program uses typecasting to ensure correct floating-point division when dividing the two integers. It demonstrates fundamental concepts such as input/output, basic arithmetic, and typecasting in C++.
